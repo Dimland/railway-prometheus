@@ -25,7 +25,8 @@ scrape_configs:
 
 - job_name: 'mongodb'
     static_configs:
-    - targets: ['spirited-emotion.railway.internal:9216']
+    - targets: ['mongo-exporter.railway.internal:9216']
+
     
   # - job_name: 'postgres'
   #   scrape_interval: 5s
